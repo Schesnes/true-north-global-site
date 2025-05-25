@@ -12,8 +12,14 @@ header {
   text-align: center;
   padding: 20px;
 }
+.logo-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 .logo {
   max-height: 100px;
+  max-width: 100%;
   margin-bottom: 10px;
 }
 .tagline {
@@ -48,6 +54,16 @@ section {
 .updates li {
   margin-bottom: 10px;
   font-size: 15px;
+}
+.ustr-link {
+  font-size: 14px;
+  display: inline-block;
+  margin-top: 10px;
+  color: #1d4ed8;
+  text-decoration: none;
+}
+.ustr-link:hover {
+  text-decoration: underline;
 }
 .contact-form {
   display: flex;
