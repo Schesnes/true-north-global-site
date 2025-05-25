@@ -4,7 +4,7 @@ body {
   margin: 0;
   padding: 0;
   height: 100%;
-  background: linear-gradient(to bottom right, #f5f7fa, #e3eaf1); /* subtle gradient */
+  background: linear-gradient(to bottom right, #f5f7fa, #e3eaf1);
   color: #333;
 }
 header {
@@ -36,6 +36,38 @@ section {
   max-width: 400px;
   border-radius: 10px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+}
+.updates {
+  padding: 20px;
+  background: #f9fafb;
+}
+.updates ul {
+  list-style-type: none;
+  padding: 0;
+}
+.updates li {
+  margin-bottom: 10px;
+  font-size: 15px;
+}
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 10px;
+}
+.contact-form input,
+.contact-form textarea {
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.contact-form button {
+  padding: 10px;
+  background-color: #4b5563;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
 }
 footer {
   background: #f3f4f6;
