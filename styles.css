@@ -22,6 +22,12 @@ header {
   max-width: 100%;
   margin-bottom: 10px;
 }
+.subtitle {
+  font-size: 13px;
+  color: #666;
+  margin-top: -10px;
+  letter-spacing: 0.5px;
+}
 .tagline {
   font-size: 16px;
   color: #555;
@@ -45,7 +51,9 @@ section {
 }
 .updates {
   padding: 20px;
-  background: #f9fafb;
+  background: url('background-animation.png') center/cover no-repeat;
+  background-blend-mode: lighten;
+  color: #111;
 }
 .updates ul {
   list-style-type: none;

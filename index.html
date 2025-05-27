@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>True North Global</title>
+  <title>True North Global LSP</title>
   <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
@@ -13,6 +13,7 @@
       <img src="logo.png" alt="True North Global Logo" class="logo"/>
     </div>
     <h1>True North Global</h1>
+    <p class="subtitle">LSP – Logistics Service Provider</p>
     <p class="tagline">Empowering Growth Through Strategic Supply Chain & Business Solutions</p>
   </header>
 
@@ -78,7 +79,24 @@
   </section>
 
   <footer>
-    <p>© 2025 True North Global. All rights reserved.</p>
-  </footer>
+    <p>© 2025 True North Global LSP. All rights reserved.</p>
+  
+  <section class="contact">
+    <h2>Feedback / Request Form</h2>
+    <p>Use the form below to ask questions, request services, or provide feedback.</p>
+    <form action="https://formspree.io/f/mnqegzdz" method="POST" class="contact-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" required />
+
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required />
+
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" rows="4" required></textarea>
+
+      <button type="submit">Send Message</button>
+    </form>
+  </section>
+</footer>
 </body>
 </html>
