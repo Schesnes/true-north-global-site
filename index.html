@@ -1,31 +1,71 @@
-<link rel="icon" type="image/png" href="favicon.png" />
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-DRS3LC92GN"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-DRS3LC92GN');
-</script>
-
-  <title>True North Global LSP – Supply Chain & Business Consulting</title>
   <meta charset="UTF-8" />
-  <meta name="description" content="True North Global LSP provides expert supply chain optimization and small business consulting services.">
-  <meta name="keywords" content="supply chain, logistics, small business, consulting, True North Global LSP, Sharlene Ramos-Chesnes">
-  <meta name="author" content="True North Global LSP">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta property="og:title" content="True North Global LSP – Empowering Growth">
-  <meta property="og:description" content="Consulting firm offering logistics solutions and small business support.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://schesnes.github.io/true-north-global-site/">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>True North Global LSP – Supply Chain & Business Consulting</title>
+  <link rel="icon" type="image/png" href="favicon.png" />
   <link rel="stylesheet" href="styles.css" />
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-DRS3LC92GN"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'G-DRS3LC92GN');
+  </script>
 </head>
 <body>
-  <!-- Body content is omitted for brevity -->
+  <header>
+    <img src="logo.png" alt="True North Global Logo" class="logo" />
+    <h1>True North Global LSP</h1>
+    <p class="tagline">Empowering Growth Through Strategic Supply Chain & Business Solutions</p>
+  </header>
+
+  <section>
+    <h2>About Us</h2>
+    <p>
+      Founded by Sharlene Ramos-Chesnes, True North Global LSP is a consulting firm focused on optimizing
+      supply chains and supporting small business growth. With executive-level expertise, Sharlene has
+      led multi-million dollar enterprises and advised clients across sectors.
+    </p>
+  </section>
+
+  <section>
+    <h2>Our Services</h2>
+    <div class="services-grid">
+      <div class="service-box">
+        <h3>Supply Chain Consulting</h3>
+        <ul>
+          <li>Global logistics optimization</li>
+          <li>Strategic sourcing & procurement</li>
+          <li>Inventory & warehouse management</li>
+          <li>Compliance & risk mitigation</li>
+        </ul>
+      </div>
+      <div class="service-box">
+        <h3>Small Business Consulting</h3>
+        <ul>
+          <li>Business launch & scale-up strategies</li>
+          <li>Operations improvement</li>
+          <li>Funding & grant support</li>
+          <li>Leadership development</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <h2>Contact Us</h2>
+    <form action="https://formspree.io/f/mblondjz" method="POST" class="contact-form">
+      <input type="text" name="name" placeholder="Your Name" required />
+      <input type="email" name="email" placeholder="Your Email" required />
+      <textarea name="message" placeholder="Your Message" required></textarea>
+      <button type="submit">Send</button>
+      <input type="hidden" name="_redirect" value="thank-you.html" />
+    </form>
+  </section>
 </body>
 </html>
